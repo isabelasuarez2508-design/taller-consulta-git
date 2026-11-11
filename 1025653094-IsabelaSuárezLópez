@@ -55,3 +55,25 @@ Definición: Copiar un repositorio remoto existente (con todo su historial y ram
 
 Upstream y Origin:
 Definición: Origin es el alias predeterminado para el repositorio remoto original desde el cual clonaste tu proyecto (tu propio fork o repo). Upstream se refiere comúnmente al repositorio original de referencia (por ejemplo, el repositorio principal de una organización o proyecto open-source del cual hiciste una copia).
+
+5. La importancia de las ramas (Branches)
+Las ramas son el pilar fundamental para trabajar de forma ordenada. Permiten aislar tareas para que los cambios experimentales o en desarrollo no afecten el código estable.
+
+En el trabajo individual: Te permiten experimentar con nuevas tecnologías o funcionalidades complejas sabiendo que, si algo sale mal, puedes descartar la rama y volver a tu código base intacto sin arruinar tu avance previo.
+
+En equipo: Evitan que dos o más desarrolladores pisen el código de los demás. Cada integrante trabaja en su propia rama (feature/...), lo que permite que varios programadores desarrollen distintas partes de una aplicación al mismo tiempo de forma segura y organizada.
+
+6. ¿Qué es GitFlow?
+
+GitFlow es un modelo estructurado de organización de ramas para Git que define un marco estricto sobre cómo interactúan las diferentes ramas a lo largo del ciclo de vida del software.
+
+Estructura de sus ramas principales:
+master (o main): Contiene el código oficial que está en producción (la versión estable que ven los usuarios finales).
+
+develop: Es la rama de integración principal donde se acumulan las nuevas características listas para la siguiente versión.
+
+feature/*: Ramas temporales que nacen de develop y sirven para desarrollar funcionalidades específicas (ej. feature/autenticacion). Una vez terminadas, se fusionan de vuelta a develop.
+
+release/*: Ramas que se crean a partir de develop cuando se prepara una nueva versión para salir a producción. Permiten hacer ajustes menores de última hora y pruebas de calidad (QA).
+
+hotfix/*: Ramas de emergencia que nacen directamente de master para solucionar un error crítico en producción de inmediato, las cuales luego se fusionan tanto en master como en develop.
