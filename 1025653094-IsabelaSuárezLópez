@@ -32,3 +32,26 @@ GitLab: Muy utilizado en entornos empresariales, destaca por sus potentes herram
 Bitbucket: Desarrollado por Atlassian, es altamente valorado por su integración nativa con otras herramientas de la misma suite como Jira y Trello.
 
 Gitea / Forgejo: Alternativas de código abierto y autohospedadas, ideales para quienes prefieren mantener sus propios servidores de control de versiones con total privacidad.
+
+4. Glosario básico de Git
+
+Commit
+Definición: Es un registro o "fotografía" del estado de tus archivos en un momento dado dentro del historial del proyecto.
+
+Branch (Rama):
+Definición: Una línea de desarrollo independiente que te permite trabajar en una nueva funcionalidad o corregir un error sin alterar la versión principal del código.
+
+Merge (Fusión):
+Definición: El proceso de unir los cambios realizados en una rama con otra (por ejemplo, integrar tu rama de trabajo con la rama principal).
+
+Pull y Push:
+Definición: Push es enviar tus commits locales hacia el repositorio remoto en la nube; Pull es descargar y fusionar los cambios más recientes del repositorio remoto hacia tu máquina.
+
+Pull Request (PR):
+Definición: Una solicitud formal en la plataforma de alojamiento (como GitHub) para que los cambios de una rama sean revisados y aprobados antes de fusionarse en otra rama (generalmente main).
+
+Clone (Clonar):
+Definición: Copiar un repositorio remoto existente (con todo su historial y ramas) por primera vez en tu computadora local.
+
+Upstream y Origin:
+Definición: Origin es el alias predeterminado para el repositorio remoto original desde el cual clonaste tu proyecto (tu propio fork o repo). Upstream se refiere comúnmente al repositorio original de referencia (por ejemplo, el repositorio principal de una organización o proyecto open-source del cual hiciste una copia).
