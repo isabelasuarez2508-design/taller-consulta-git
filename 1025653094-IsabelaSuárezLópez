@@ -14,3 +14,9 @@ Colaboración caótica: Trabajar en equipo significaba enviarse archivos por cor
 Falta de trazabilidad: No saber quién hizo un cambio, cuándo lo hizo o por qué motivo exacto se implementó.
 
 Git soluciona esto manteniendo un historial completo, lineal y ramificado donde cada cambio (commit) queda registrado con su autor, fecha y descripción.
+
+2. Diferencias clave entre Git y GitHub
+
+Git es un software de control de versiones. Se instala de forma local en tu computadora y funciona completamente offline. Su propósito principal es rastrear los cambios en tu código fuente, registrar el historial de versiones y permitirte trabajar con ramas de manera local utilizando la terminal o comandos de consola.
+
+GitHub es una plataforma web en la nube. Funciona como un servicio de alojamiento para repositorios Git. Requiere conexión a internet para sincronizar el código y ofrece una interfaz gráfica visual en la web. Además, facilita enormemente la colaboración en equipo mediante herramientas como revisiones de código (Pull Requests), control de accesos, gestión de tareas (Issues) y despliegues integrados.
