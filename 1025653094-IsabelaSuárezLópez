@@ -20,3 +20,15 @@ Git soluciona esto manteniendo un historial completo, lineal y ramificado donde 
 Git es un software de control de versiones. Se instala de forma local en tu computadora y funciona completamente offline. Su propósito principal es rastrear los cambios en tu código fuente, registrar el historial de versiones y permitirte trabajar con ramas de manera local utilizando la terminal o comandos de consola.
 
 GitHub es una plataforma web en la nube. Funciona como un servicio de alojamiento para repositorios Git. Requiere conexión a internet para sincronizar el código y ofrece una interfaz gráfica visual en la web. Además, facilita enormemente la colaboración en equipo mediante herramientas como revisiones de código (Pull Requests), control de accesos, gestión de tareas (Issues) y despliegues integrados.
+
+3. ¿Qué es una nube de repositorios?
+
+Una nube de repositorios (o servicio de alojamiento de código) es una plataforma en la red que almacena copias remotas de tus proyectos controlados con Git. Funciona como un servidor centralizado seguro donde el equipo puede respaldar su código, sincronizar avances y revisar cambios de forma centralizada.
+
+Tres alternativas populares en el mercado:
+
+GitLab: Muy utilizado en entornos empresariales, destaca por sus potentes herramientas integradas de integración y despliegue continuo (CI/CD) y gestión de proyectos estilo Jira.
+
+Bitbucket: Desarrollado por Atlassian, es altamente valorado por su integración nativa con otras herramientas de la misma suite como Jira y Trello.
+
+Gitea / Forgejo: Alternativas de código abierto y autohospedadas, ideales para quienes prefieren mantener sus propios servidores de control de versiones con total privacidad.
